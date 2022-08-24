@@ -1,0 +1,166 @@
+#yo{
+    color: #E6CBEA;
+    font-family: serif;
+    text-align: center;
+    border: center 1px solid #E6CBEA;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 65px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    letter-spacing: 0.4em;
+    text-shadow: black 0.08em 0.08em 0.09em
+}
+
+#tr {
+    color: #E6CBEA;
+    font-family: serif;
+    text-align: center;
+    border: center 1px solid #E6CBEA;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 65px;
+    margin: 0px;
+    padding: 0%;
+    border: 0;
+    letter-spacing: 0.4em;
+    text-shadow: black 0.08em 0.08em 0.09em
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+
+}
+
+nav a{
+    text-decoration: none; border-radius: 10px; padding: 2px 5px 5px 5px;
+    color: #621E6B;
+    text-shadow: 0.01em 0.01em #333
+}
+
+nav a:hover{
+    color: #E6CBEA;
+    background: #da83e6b0;
+    text-shadow: 0 0 0.2em rgb(217, 247, 81), 0 0 0.2em rgb(230, 255, 119);
+}
+
+.banner { 
+    margin: auto;
+    text-align: center;
+    background-color: #da83e6b0;
+    box-shadow: 0 0 0 0.1em #333;
+    margin: 0px;
+    padding: 5px;
+    line-height: 2px;
+    text-decoration: none;
+
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #621E6B;
+    background-image: url("/src/nubes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+
+}
+
+.text {
+    color: #E6CBEA;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.every {
+    color: #E6CBEA;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4em;
+    text-align: center;
+    margin-bottom: 0px;
+    text-shadow: black 0.08em 0.08em 0.09em
+    
+}
+
+#cara {
+    text-align: center;
+    margin-top: 25px;
+    border: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+main {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    line-height:0
+}
+
+.nube {
+    width: 100vw;
+    position: absolute;
+    margin-top: 52.75vh;
+    border: 0;
+}
+
+footer {
+    filter: blur(0.7px);
+}
+    
+#caraa {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#yoo{
+    color: #E6CBEA;
+    font-family: serif;
+    border: center 1px solid #E6CBEA;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 65px;
+    margin-left: 28px;
+    margin-top: 0;
+    padding-bottom: 0%;
+    letter-spacing: 0.1em;
+    text-shadow: black 0.08em 0.08em 0.09em
+}
+
+#trr {
+    color: #E6CBEA;
+    font-family: serif;
+    display: flex;
+    text-align: center;
+    border: center 1px solid #E6CBEA;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 65px;
+    margin-top: 50px;
+    letter-spacing: 0.4em;
+    text-shadow: black 0.08em 0.08em 0.09em
+}
+
+.bout {
+    text-align: center;
+    display: inline-block;
+}

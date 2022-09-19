@@ -6,48 +6,44 @@
 #AA66B3 morado brillante claro 
 */
 
-:root{
-    --moradoOpaco: #613A66;
-    --lavandaBlanco: #E6CBEA;
+body {
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: #621E6B;
+    background-image: url("/src/nubes.png");
+    background-repeat: space;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
-main{
-    position: relative;
-}
-
-.banner { 
-    display: flex;
-    text-align: center;
+#barra { 
     background-color: #da83e668;
+    display: flex;
+    align-self: center;
+    align-content: center;
     box-shadow: 0 0 0 0.1em #333;
-    line-height: 1vh;
     text-decoration: none;
     justify-content: space-around;
     flex-wrap: wrap;
-    min-width: 100vw;
 }
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
-
+nav {
+    height: 2rem;
 }
+
 nav li{
     display: inline-flex;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    align-self: center;
     text-transform: uppercase;
     flex-wrap: wrap;
+    align-self: center;
+    text-align: bottom;
     letter-spacing: 1em;
     font-size: 1vw;
-
 }
 
 nav a{
     text-decoration: none; border-radius: 10px; padding: 2px 5px 5px 5px;
-    color: var(--moradoOpaco); 
+    color: #621E6B;
     text-shadow: 0.01em 0.01em #333
 }
 
@@ -63,121 +59,40 @@ nav a:active{
     color: #621E6B;
 }
 
-body {
-    max-height: 100vh;
-    max-width: 100vw;
-    background-color: #621E6B;
-    background-image: url("/src/nubes.png");
-    background-repeat: space;
-    background-size: cover;
-    background-blend-mode: soft-light;
-
+#foto {
+    margin-left: 1rem;
 }
 
-.text {
+#Nombre{
     color: #E6CBEA;
-    font-family: serif;
-    font-size: 18px;
-    letter-spacing: 0.4em;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-main {
-    width: 100vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border: 0;
-    line-height:0
-}
-
-.nube {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100vw;
-    order: 3;
     position: absolute;
-    margin-top: 0vh;
-}
-
-footer {
-    margin-top: 0%;
-    padding-top: 0%;
-    filter: blur(0.7px);
-    text-transform: uppercase;
-}
-    
-#caraa {
-    display: inline;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-
-#yoo{
-    display: inline;
-    color: #E6CBEA;
+    align-content: flex-start;
     font-family: serif;
-    border: center 1px solid #E6CBEA;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 65px;
-    margin-left: 28px;
-    margin-top: 0;
+    font-size: x-small;
+    margin-top: 5.5rem;
     padding-bottom: 0%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
     text-shadow: black 0.08em 0.08em 0.09em
-
 }
 
-#trr {
-    position: absolute;
+#Titulo {
     color: #E6CBEA;
     font-family: serif;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     text-align: center;
-    border: center 1px solid #E6CBEA;
-    font-size: 6vh;
+    margin-top: 5rem;
     letter-spacing: 0.4em;
-    text-shadow: black 0.08em 0.08em 0.09em;
-    top: 20vh;
-    left: 35vw;
-}
-
-.bout {
-
-    display: block;
-    padding-top: 2%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    letter-spacing: 0.2em;
+    text-transform: uppercase;
     text-shadow: black 0.08em 0.08em 0.09em
-    
 }
 
-#copy {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.audio {
-    display: flex;
-    position: absolute;
-}
-
-@media screen and (max-width:320px) {
-    .banner{
-        width: 100vw;
-        font-size: 0.3vw;
-    }
-    #cara{
-        width: 45vh;
-    }
+#sobremi {
+    color: #E6CBEA;
+    font-family: serif;
+    font-size: 2.73vh;
+    margin-top: 5rem;
+    letter-spacing: 0.4em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: black 0.08em 0.08em 0.09em
 }

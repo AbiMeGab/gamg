@@ -2,54 +2,77 @@
 
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/proj.css">
-</head>
-<body>
-  <main>
-      <div class="banner">
-      <nav>
-          <ul>
-              <a href="/index.html"><li>Homepage</li></a>
-              <li>|</li>
-              <a href="/pages/about.html"><li>About me</li></a>
-              <li>|</li>
-              <a href="/pages/skills.html"><li>Skills</li></a>
-              <li>|</li>
-              <a href="/pages/proj.html"><li>Projects</li></a>
-              <li>|</li>
-              <a href="/pages/quo.html"><li>Quotations</li></a>
-          </ul>
-      </nav>
-      </div>
-      <div id="caraa"><img src="/src/cara.png" width="155px"></div>
-      <div>
-          <h1 id="yoo">&#60; Gadi Abi Medero Gabriel &#62;</h1>
-          <h1 id="trr">&#60; Projects &#62;</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="/CSS/skills.css">
+    </head>
 
-          <div class="card" style="width: 18rem;">
-            <img src="/src/cara.png" class="card-img-top" alt="proyecto1">
-            <div class="card-body">
-              <h5 class="card-title">My Portfolio</h5>
-              <p class="card-text">HTML, CSS, Bootstrap.
-              </p>
-              <a href="/index.html" class="btn btn-primary">See it now!</a>
-            </div>
-          </div>
+    <body>
+    <main>
+            <div id="barra" class="text-break"></div>
+    
+    <img id="foto" src="/src/cara.png" class="rounded float-left mt-3" width="200px" alt="foto">
+    <div>
+    <p id="Nombre">&#60; Gadi Abi Medero Gabriel &#62;</p>
+    <h1 id="Titulo">&#60; Projects &#62;</h1>
+    </div>
 
-</div>
-  <footer>
-      <div class="nube"><img src="/src/nube.png" style="width: 100vw;"></div>
-      <div id="copy"><h5>&#169; Gadi Abi Medero Gabriel</h5></div></div>
-      <audio controls autoplay class="audio">
-          <source src="/src/golden.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-      </audio>
-  </footer>
-</body>
+  </main>
+
+                <div class="card-deck text-center mx-auto" style="width: 50rem; margin-top: 4rem;">
+                  <div class="card">
+                    <img src="/src/cara.png" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                      <h5 class="card-title">Portfolio</h5>
+                      <p class="card-text">My personal touch in everything, using HTML, CSS, Bootstrap, Javascript.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="/index.html" class="btn btn-primary">See it now!</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="/src/java.jpeg" class="card-img-top" alt="EcoInclusive">
+                    <div class="card-body">
+                      <h5 class="card-title">EcoInclusive</h5>
+                      <p class="card-text">My team project about an e-commerce during my Generation México training as a Java Fullstack Developer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="https://github.com/Steven-Newton/ProyectoIntegrador/tree/Develop" class="btn btn-primary">See it now!</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="/src/creativecommons.png" class="card-img-top" alt="GitHub">
+                    <div class="card-body">
+                      <h5 class="card-title">Personal Repositories</h5>
+                      <p class="card-text">This is my personal collection of various mini-projects and exercises during my training time.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="https://github.com/AbiMeGab?tab=repositories" class="btn btn-primary">See it now!</a>
+                    </div>
+                  </div>
+                </div>
+                <footer>
+
+                  <div class="card bg-transparent text-black border-0">
+                      <img src="/src/nube.png" class="card-img" alt="nubes">
+                      <div class="card-img-overlay">
+                      <div><audio controls autoplay class="audio" hidden>
+                          <source src="/src/golden.mp3" type="audio/mpeg">
+                              Your browser does not support the audio element.
+                          </audio>
+                      <p class="card-text text-center mt-3">&#169; Gadi Abi Medero Gabriel</p></div>
+                      </div>
+                    </div>
+                    
+ </footer>
+              
+  <script src="/JS/nav.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+              
 </html>

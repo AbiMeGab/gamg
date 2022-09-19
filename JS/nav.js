@@ -10,4 +10,19 @@ window.addEventListener("load", function(){
         <li>|</li>
         <li><a href="/pages/quo.html">Quotations</a></li></ul>
         </nav>`
+
+    footer.innerHTML += `<footer>
+
+    <div class="card bg-transparent text-black border-0">
+        <img src="/src/nube.png" class="card-img" alt="nubes">
+        <div class="card-img-overlay">
+        <div><audio controls autoplay class="audio" hidden>
+            <source src="/src/golden.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        <p class="card-text text-center mt-3">&#169; Gadi Abi Medero Gabriel</p></div>
+        </div>
+      </div>
+      
+</footer>`
 });

@@ -92,3 +92,9 @@ nav a:active{
     text-transform: uppercase;
     text-shadow: black 0.08em 0.08em 0.09em
 }
+
+.card-img-top{
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+}

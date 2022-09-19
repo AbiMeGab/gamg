@@ -2,81 +2,83 @@
 
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/quo.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="/CSS/quo.css">
+    </head>
 
-<main>
-<body>
+    <body>
+    <main>
+            <div id="barra" class="text-break"></div>
     
-    <div class="banner">
-    <nav>
-        <ul>
-            <a href="/index.html"><li>Homepage</li></a>
-            <li>|</li>
-            <a href="/pages/about.html"><li>About me</li></a>
-            <li>|</li>
-            <a href="/pages/skills.html"><li>Skills</li></a>
-            <li>|</li>
-            <a href="/pages/proj.html"><li>Projects</li></a>
-            <li>|</li>
-            <a href="/pages/quo.html"><li>Quotations</li></a>
-        </ul>
-    </nav>
+    <img id="foto" src="/src/cara.png" class="rounded float-left mt-3" width="200px" alt="foto">
+    <div>
+    <p id="Nombre">&#60; Gadi Abi Medero Gabriel &#62;</p>
+    <h1 id="Titulo">&#60; Quotations &#62;</h1>
     </div>
 
-    <div id="caraa"><img src="/src/cara.png" width="155px"></div>
-    <div>
-    <h1 id="yoo">&#60; Gadi Abi Medero Gabriel &#62;</h1>
-    <h1 id="trr">&#60; Quotations &#62;</h1>
-    </div>    
+ 
 
-<form>
+  <div class="container" id="sobremi">
+    <div class="row">
+      <div class="col">
+  <form style="width: 20rem;">
     <div class="form-group">
         <label for="exampleFormControlInput1">Full Name</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+        <input type="name" class="form-control" id="nombre" placeholder="Your name">
       </div>
     <div class="form-group">
       <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
     </div>
     <div class="form-group">
       <label for="exampleFormControlSelect1">Urgency</label>
       <select class="form-control" id="exampleFormControlSelect1">
-        <option>1-7 working days project</option>
-        <option>1-3 months project</option>
-        <option>1-6 months project</option>
-        <option>6+ months project</option>
+        <option value="200">1-7 working days project</option>
+        <option value="150">1-3 months project</option>
+        <option value="100">1-6 months project</option>
+        <option value="75">6+ months project</option>
       </select>
     </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect2">Tasks to do</label>
-      <select multiple class="form-control" id="exampleFormControlSelect2">
-        <option>Quotation</option>
-        <option>Questions</option>
-        <option>Support</option>
-        <option>Website</option>
-      </select>
-    </div>
+  </div>
+  <div class="col">
+      <legend class="col-form-label">Tasks to-do</legend>
+      <div class="form-check">
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="quest" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1" value="5" id="question">Questions</label></div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option2">
+      <label class="form-check-label" for="inlineCheckbox2" value="3" id="project">Project Quotation</label></div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3" value="20" id="support">Support</label></div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option4">
+      <label class="form-check-label" for="inlineCheckbox4" value="25" id="tutoring">Tutoring</label></div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option5">
+      <label class="form-check-label" for="inlineCheckbox5" value="120" id="hosting">Hosting</label></div>
+  </div>
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Detail your objective</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-  </form>
-</div>
-</main>
-<footer>
-    <div class="nube"><img src="/src/nube.png" style="width: 100vw;"></div>
-    <div id="copy"><h5>&#169; Gadi Abi Medero Gabriel</h5></div></div>
-    <audio controls autopla class="audio">
-        <source src="/src/golden.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-</footer>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea></div>
+      <a id="enviar" class="btn btn-primary btn-l" tabindex="-1" role="button" aria-disabled="true">Send Request</a>
+<a id="calcular" class="btn btn-secondary btn-l" tabindex="-1" role="button" aria-disabled="true">Estimated total</a>
+  </form></div>
+  <div id="btnEnviar" class="alert alert-primary" role="alert" style="display:none"></div>
+  <div id="btnCalc" class="alert alert-secondary" role="alert" style="display:none"></div>
+  </main> 
+
+<div id="footer"></div>
+<script src="/JS/quotation.js"></script>
+<script src="/JS/nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
+
 </html>
